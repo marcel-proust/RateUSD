@@ -1,0 +1,15 @@
+# Ignore PyCharm project files
+.idea/
+
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+venv/
+ENV/
+env/
+*.env
+
+# Ignore system files
+.DS_Store

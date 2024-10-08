@@ -1,5 +1,6 @@
-import requests
 from xml.etree import ElementTree
+
+import requests
 
 
 def get_usd_to_rub_rate():

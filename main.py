@@ -1,12 +1,14 @@
 import logging
+import asyncio
+import os
+
 from aiogram import Bot, Dispatcher, types
 from aiogram.filters import Command
 from aiogram import Router
 from aiogram.types import ChatMemberUpdated
-import asyncio
+
 from get_course import get_usd_to_rub_rate
 
-API_TOKEN = '7649386783:AAHq28Jnm182Zzz2emAZQ_toVsticXH2T-g'
 API_TOKEN = os.getenv('TELEGRAM_API_TOKEN')
 
 # Включаем логирование
